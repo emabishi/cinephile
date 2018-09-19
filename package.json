@@ -1,0 +1,26 @@
+{
+  "name": "cinephile",
+  "version": "1.0.0",
+  "description": "SMS based cinema showings retrieval",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node seed/seed_script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emabishi/cinephile.git"
+  },
+  "author": "@mabishi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emabishi/cinephile/issues"
+  },
+  "homepage": "https://github.com/emabishi/cinephile#readme",
+  "dependencies": {
+    "mongodb": "^3.1.6"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0"
+  }
+}
